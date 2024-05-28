@@ -90,7 +90,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url');
+$autoload['helper'] = array('url','pustaka');
 
 /*
 | -------------------------------------------------------------------
@@ -128,9 +128,9 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model', 'second_model');
 |
-| You can also supply an alternative model name to be assigned
+| You can also supply an alternative model name to be assignedx
 | in the controller:
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+$autoload['model'] = array('ModelUser', 'ModelBuku');
